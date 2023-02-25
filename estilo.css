@@ -69,6 +69,7 @@ html{
     color: #fff;
     display: flex;
     align-items: center;
+   
 }
 .inicio .contenido-banner{
     padding: 10px;
@@ -126,7 +127,7 @@ html{
 .sobremi{
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -229,7 +230,7 @@ html{
 .skills{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -292,7 +293,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .htmlcss{
@@ -301,32 +302,32 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 50%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .GitGitHub{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s GitGitHub forwards;
 }
-@keyframes photoshop {
+@keyframes GitGitHub {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 40%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .MySql{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s MySql forwards;
 }
-@keyframes wordpress {
+@keyframes MySql {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 30%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .Java{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s Java forwards;
 }
-@keyframes drupal {
+@keyframes Java {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -346,7 +347,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .creatividad{
@@ -364,7 +365,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .proyect{
@@ -379,7 +380,7 @@ html{
 .curriculum{
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 .curriculum .contenido-seccion{
     max-width: 1100px;
@@ -485,7 +486,7 @@ html{
 .portfolio{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 .portfolio .contenido-seccion{
     max-width: 1100px;
@@ -543,7 +544,7 @@ html{
     background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 0;
+    padding: 10px 0;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -619,7 +620,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #b61c1c;
     display: inline-block;
     margin-right: 20px;
 }
@@ -661,6 +662,12 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+  .derechosReservados h6 {
+    align-items: center;
+    font-size:14px;
+    margin-bottom: 20px;
+
+  }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
